@@ -18,7 +18,7 @@
     	});
 
     	$("#passcode").bind("keyup keypressed change input", function(){
-    		if($("input:eq(0)", this).val() === "navin"){
+    		if($("input:eq(0)", this).val() === "change"){
     			$(this).css('visibility', 'hidden');
     			$("#content").css('visibility', 'visible');
     		};
