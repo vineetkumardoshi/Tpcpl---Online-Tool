@@ -1,0 +1,262 @@
+<html>
+<head>
+<title>
+TPCPL - Online Tool
+</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+	<div id="passcode">
+	 &nbsp;Please Type Password<br> 	
+	 <input type="password">
+	</div>
+	<div id="content" style="visibility:hidden">
+		<hr>
+		<center>
+			<h1 style="font-family:fantasy">Tarun Premier Corporation Pvt Ltd <br>Online Tool</h1>
+		</center>
+		<hr>
+		<center>
+			<div class="menu" id="inactive">
+				<a href="index.html">Landing <br> Page</a>
+			</div>
+			&nbsp;
+			<div class="menu" id="active">
+				<a href="flowcontrol.html">DryAll <br> Flow Control</a>
+			</div>
+			&nbsp;
+			<div class="menu" id="inactive">
+				<a href="flowcontrol.html">DryAll <br> Driers</a>
+			</div>
+			&nbsp;
+			<div class="menu" id="inactive">
+				<a href="flowcontrol.html">Trumaxx <br> Axial Fan Motor</a>
+			</div>
+			&nbsp;
+			<div class="menu" id="inactive">
+				<a href="flowcontrol.html">Trumaxx -<br> Shaded Pole Motor</a>
+			</div>
+		</center>
+		<br>
+		<center>
+			<img src="http://www.dryall.net/upload/logo.png">
+		</center>
+		<br>
+		<table style="text-align: center; width:100%;">
+			<colgroup>
+		       <col span="1" style="width: 30%;">
+		       <col span="1" style="width: 10%;">
+		       <col span="1" style="width: 10%;">
+		       <col span="1" style="width: 10%;">
+		       <col span="1" style="width: 10%;">
+		       <col span="1" style="width: 10%;">
+		       <col span="1" style="width: 10%;">
+		       <col span="1" style="width: 10%;">
+	    	</colgroup>
+	    	<thead>
+	    		<tr>
+					<th>Model</th>
+					<th>Quantity In Stock</th>
+					<th>Re-Stock Level</th>
+					<th>MOQ Batch Units</th>
+					<th>Purchase Order Quantity</th>
+					<th>Price Per Unit [INR]</th>
+					<th>Net Price [INR]</th>
+					<th>Date</th>
+				</tr>
+			</thead>	
+	    	<tbody>
+				<tr class="os-r" id="os04">
+					<td><span>Oil Separator 3/8"</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="4" min="0" disabled ></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled ></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="1200" disabled></td> <!-- Price Per Unit -->
+					<td><span disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="os-r">
+					<td><span>Oil Separator 1/2"</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="20" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span ><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="1255" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="os-r">
+					<td><span>Oil Separator 5/8"</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="20" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="1360" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="os-r">
+					<td><span>Oil Separator 7/8"</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="20" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="1523" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="os-r">
+					<td><span>Oil Separator 1-1/8"</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="8" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="1885" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+
+				<!-- receivers -->
+				<tr></tr><tr></tr><tr></tr>
+				<tr class="rec-r">
+					<td><span>Receiver 02L</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="30" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="994" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="rec-r">
+					<td><span>Receiver 04L</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="24" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="1270" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="rec-r">
+					<td><span>Receiver 06L</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="1710" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="rec-r">
+					<td><span>Receiver 08L</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="8" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="1835" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="rec-r">
+					<td><span>Receiver 10L</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="2485" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="rec-r">
+					<td><span>Receiver 12L</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="2695" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<!-- receivers -->
+				<tr></tr><tr></tr><tr></tr>
+				<tr class="acc-r">
+					<td><span>Suction Line Accumulator 3/8"</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="8" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="8" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="294" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="acc-r">
+					<td><span>Suction Line Accumulator 1/2"</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="30" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="10" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="349" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="acc-r">
+					<td><span>Suction Line Accumulator 5/8"</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="40" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="387" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="acc-r">
+					<td><span>Suction Line Accumulator 7/8"</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="40" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="798" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="acc-r">
+					<td><span>Suction Line Accumulator 1-1/8"</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="20" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="1215" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="acc-r">
+					<td><span>Suction Line Accumulator 1-3/8"</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="8" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="1635" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+				<tr class="acc-r">
+					<td><span>Suction Line Accumulator 1-5/8"</span></td> <!-- Model -->
+					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="4" min="0" disabled></td> <!-- MOQ Batch Units -->
+					<td><span><span></td> <!-- Purchase Order Quantity -->
+					<td><input type="text" value="2700" disabled></td> <!-- Price Per Unit -->
+					<td><span type="number" disabled></span></td> <!-- Net Price -->
+					<td><span id="date"></span></td> <!-- Date -->
+				</tr>
+			</tbody>
+		</table>	
+	</div>
+</body>
+</html>
