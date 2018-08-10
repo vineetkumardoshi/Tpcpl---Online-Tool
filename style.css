@@ -29,8 +29,14 @@ span{
 .acc-r{
 	background-color: #52c234;	
 }
+.axf-s{
+	background-color: #52c234;		
+}
+.axf-t{
+	background-color: orange;		
+}
 
-.os-r td:nth-child(5), .rec-r td:nth-child(5), .acc-r td:nth-child(5){
+.os-r td:nth-child(5), .rec-r td:nth-child(5), .acc-r td:nth-child(5), .axf-r td:nth-child(5){
 	background-color: black;
 }
 
