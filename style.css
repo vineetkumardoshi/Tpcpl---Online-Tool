@@ -30,10 +30,10 @@ span{
 	background-color: #52c234;	
 }
 .axf-s{
-	background-color: #52c234;		
+	background-color: red;		
 }
 .axf-t{
-	background-color: orange;		
+	background-color: gray;		
 }
 
 .os-r td:nth-child(5), .rec-r td:nth-child(5), .acc-r td:nth-child(5), .axf-s td:nth-child(5), .axf-t td:nth-child(5){

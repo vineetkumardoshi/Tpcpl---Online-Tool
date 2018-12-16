@@ -55,7 +55,7 @@ TPCPL - Online Tool
 		       <col span="1" style="width: 10%;">
 		       <col span="1" style="width: 10%;">
 		       <col span="1" style="width: 10%;">
-		       <col span="1" style="width: 10%;">
+		       
 	    	</colgroup>
 	    	<thead>
 	    		<tr>
@@ -64,175 +64,185 @@ TPCPL - Online Tool
 					<th>Re-Stock Level</th>
 					<th>MOQ Batch Units</th>
 					<th>Purchase Order Quantity</th>
-					<th>Price Per Unit [INR]</th>
-					<th>Net Price [INR]</th>
-					<th>Date</th>
+					<th>Forced Ratio</th>
+					<th>Forced Order</th>
+				
 				</tr>
 			</thead>	
 	    	<tbody>
 				<tr class="axf-s">
 					<td><span>Axial Fan Single Phase 08S</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
 					<td><input type="number" value="8" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="0.03" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 				
 				<tr class="axf-s">
 					<td><span>Axial Fan Single Phase 10S</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
 					<td><input type="number" value="12" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="0.13" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 				
 				<tr class="axf-s">
 					<td><span>Axial Fan Single Phase 12S</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
 					<td><input type="number" value="12" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="0.18" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 
 				
 				<tr class="axf-s">
 					<td><span>Axial Fan Single Phase 14S</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
 					<td><input type="number" value="10" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="-" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 
 				
 				<tr class="axf-s">
 					<td><span>Axial Fan Single Phase 16S</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
 					<td><input type="number" value="10" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="-" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 
 				
 				<tr class="axf-s">
 					<td><span>Axial Fan Single Phase 18S</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
 					<td><input type="number" value="10" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="-" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 
 				
 				<tr class="axf-s">
 					<td><span>Axial Fan Single Phase 20S</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
 					<td><input type="number" value="5" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="-" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 
 				
 				<tr class="axf-s">
 					<td><span>Axial Fan Single Phase 22S</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
 					<td><input type="number" value="2" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="-" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 
 				
 				<tr class="axf-t">
 					<td><span>Axial Fan Three Phase 14T</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
-					<td><input type="number" value="5" min="0" disabled ></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="2" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="-" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 
 				
 				<tr class="axf-t">
 					<td><span>Axial Fan Three Phase 16T</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
 					<td><input type="number" value="6" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="-" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 
 				
 				<tr class="axf-t">
 					<td><span>Axial Fan Three Phase 18T</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
 					<td><input type="number" value="7" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="-" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 
 				
 				<tr class="axf-t">
 					<td><span>Axial Fan Three Phase 20T</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
 					<td><input type="number" value="5" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="-" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 
 				
 				<tr class="axf-t">
 					<td><span>Axial Fan Three Phase 22T</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
 					<td><input type="number" value="5" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="-" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
 				</tr>
 
 				
 				<tr class="axf-t">
 					<td><span>Axial Fan Three Phase 24T</span></td> <!-- Model -->
-					<td><input type="number" value="" min="0"></td> <!-- Quantity In Stock -->
-					<td><input type="number" value="1" min="0" disabled ></td> <!-- Re-Stock Level -->
+					<td><input type="number" value="0" min="0" class="quantityInStock"></td> <!-- Quantity In Stock -->
+					<td><input type="number" value="2" min="0" disabled ></td> <!-- Re-Stock Level -->
 					<td><input type="number" value="1" min="0" disabled ></td> <!-- MOQ Batch Units -->
 					<td><span class="orderquantity"><span></td> <!-- Purchase Order Quantity -->
-					<td><input type="text" value="-" disabled></td> <!-- Price Per Unit -->
-					<td><span disabled></span></td> <!-- Net Price -->
-					<td><span id="date"></span></td> <!-- Date -->
+					<td><input type="number" class="forcedRatio" value="-" disabled></td> <!-- Price Per Unit -->
+					<td><span class="forcedOrder" disabled></span></td> <!-- Net Price -->
+					
+				</tr>
+				<tr>
+					<td>Total</td> <!-- Model -->
+					<td><input class="quantityInStockTotal" disabled></td> <!-- Quantity In Stock -->
+					<td></td> <!-- Re-Stock Level -->
+					<td></td> <!-- MOQ Batch Units -->
+					<td><input class="orderquantityTotal" disabled></td> <!-- Purchase Order Quantity -->
+					<td></td> <!-- Price Per Unit -->
+					<td></td> <!-- Net Price -->
+					
 				</tr>
 
 			</tbody>
